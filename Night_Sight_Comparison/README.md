@@ -8,6 +8,6 @@
   - The same ISO and exposure time were used
   - The same number of images were used for each shot
   - 3 shots per scene were taken for each method and the best was chosen for comparison
-- Our algorithm takes around 4 seconds that is comparable to Google Night Sight on Snapdragon 855
+- The current non-fully-optimized implementation of our algorithm takes around 4 seconds that is comparable to Google Night Sight on Snapdragon 855. We expect further optimization will reduce the running time by around half.
 - Note that we fed our denoised RAW images to a Qualcomm ISP to generate the final images that have different white balancing and tone mapping from Google ISP. Please focus on image noise and details. 
 
